@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Hasil</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+         <h1 style="font-family:verdana;color:tomato;">RECEIPT</h1>
+        <hr>
+        <table border="0" cellspacing ="2">
+            <tbody>
+                <tr>
+                    <td><b>Nama Sayur</b></td>
+                    <td><b>:</b></td>
+                    <td><b th:text="${hasil1}"></b></td>
+                </tr>
+                <tr>
+                    <td><b>Harga/kg</b></td>
+                    <td><b>:</b></td>
+                    <td><b th:text="${hasil2}"></b></td>
+                </tr>
+                <tr>
+                    <td><b>Qty (kg)</b></td>
+                    <td><b>:</b></td>
+                    <td><b th:text="${hasil3}"></b> <b>kg</b> </td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </body>
+</html>
